@@ -17,7 +17,7 @@
     <distributionManagement>
          <snapshotRepository>
                   <id>nexus</id>
-                  <url>http://mynexus.ci-network/nexus/content/repositories/snapshots</url>
+                  <url>http://mynexus:8081/nexus/content/repositories/snapshots</url>
          </snapshotRepository>
     </distributionManagement>     
          
