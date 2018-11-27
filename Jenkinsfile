@@ -3,9 +3,14 @@ pipeline {
     stages {
         stage('Clean') {
             steps {
-                echo 'HELLO'
+                deleteDir()
             }
         }
         
+        stage('Clone') {
+            steps {
+                checkout scm
+            }
+        }
     }
 }
